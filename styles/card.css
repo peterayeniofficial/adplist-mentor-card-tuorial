@@ -1,0 +1,89 @@
+body {
+  font-family: Roboto, Helvetica, sans-serif;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 350px;
+  height: 500px;
+  cursor: pointer;
+  transition: all 0.25s ease 0s;
+  background-image: linear-gradient(transparent 36%, rgba(0, 0, 0, 0.87));
+  position: relative;
+  border-radius: 16px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  border-radius: 16px;
+  background-color: black;
+}
+
+.card-content {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  padding-left: 150px;
+  margin-top: 25px;
+}
+
+.available-tag {
+  width: 250px;
+  height: 150px;
+  background-color: white;
+  border-radius: 50px;
+  padding: 5px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.bolt {
+  color: darkgoldenrod;
+}
+
+.heart {
+  color: beige;
+  font-size: larger;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  color: white;
+}
+
+.name {
+  margin: 0;
+  font-size: larger;
+  font-weight: 700;
+}
+.work {
+  margin-top: 2px;
+  font-weight: 300;
+}
+
+.title {
+  font-weight: 300;
+  font-size: small;
+  margin-bottom: 15px;
+}
+
+.expertise {
+  font-weight: 300;
+  font-size: small;
+}
